@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx-red
-        image: eu.gcr.io/c[PROJECT]/nginx-red:latest
+        image: eu.gcr.io/[PROJECT]/nginx-red:latest
         ports:
         - name: http-server
           containerPort: 80
